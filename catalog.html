@@ -37,27 +37,39 @@
 
           <li class="header-user-nav__item header-user-nav__item-login">
 
-            <a href="">Валентин Петухов</a>
+            <a href="">
+
+              <svg width="9" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M4.5.33c1.2 0 2.17 1.05 2.17 2.34C6.67 3.96 5.7 5 4.5 5S2.33 3.96 2.33 2.67c0-1.3.97-2.34 2.17-2.34zm0 9.34s4.33 0 4.33-1.17c0-1.4-2.1-2.92-4.33-2.92C2.28 5.58.17 7.1.17 8.5c0 1.17 4.33 1.17 4.33 1.17z" fill="#000"/></svg>
+
+              Валентин Петухов
+
+            </a>
 
             <a class="header-user-nav__item-login-out" href="">Выйти</a>
 
-            <svg width="9" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M4.5.33c1.2 0 2.17 1.05 2.17 2.34C6.67 3.96 5.7 5 4.5 5S2.33 3.96 2.33 2.67c0-1.3.97-2.34 2.17-2.34zm0 9.34s4.33 0 4.33-1.17c0-1.4-2.1-2.92-4.33-2.92C2.28 5.58.17 7.1.17 8.5c0 1.17 4.33 1.17 4.33 1.17z" fill="#000"/></svg>
+          </li>
+
+          <li class="header-user-nav__item">
+
+            <a href="">
+
+              <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M.92 3.37h1.75v5.71H.92V3.37zM4.18.92h1.64v8.16H4.18V.92zm3.27 4.66h1.63v3.5H7.45v-3.5z" fill="#000"/></svg>
+
+              Сравнить
+
+            </a>
 
           </li>
 
           <li class="header-user-nav__item">
 
-            <a href="">Сравнить</a>
+            <a href="">
 
-            <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M.92 3.37h1.75v5.71H.92V3.37zM4.18.92h1.64v8.16H4.18V.92zm3.27 4.66h1.63v3.5H7.45v-3.5z" fill="#000"/></svg>
+              <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M9.862 2.522a.358.358 0 00-.273-.129H7.658V3.42c0 .471-.404.855-.901.855s-.901-.384-.901-.855V2.393H4.054V3.42c0 .471-.404.855-.9.855-.498 0-.902-.384-.902-.855V2.393H.321a.358.358 0 00-.273.129.397.397 0 00-.09.3l.648 5.963C.618 9.457 1.142 10 1.784 10h6.342c.642 0 1.166-.543 1.178-1.215l.649-5.964a.398.398 0 00-.09-.3z" fill="#231F20"/><path d="M3.153 3.76c.2 0 .36-.153.36-.341v-1.88c0-.528.562-.855 1.082-.855h.9c.548 0 .902.335.902.854v1.88c0 .19.161.343.36.343.199 0 .36-.154.36-.342v-1.88C7.117.646 6.435 0 5.496 0h-.901C3.6 0 2.793.69 2.793 1.538v1.88c0 .19.162.343.36.343z" fill="#231F20"/></svg>
 
-          </li>
+              Корзина
 
-          <li class="header-user-nav__item">
-
-            <a href="">Корзина</a>
-
-            <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M9.862 2.522a.358.358 0 00-.273-.129H7.658V3.42c0 .471-.404.855-.901.855s-.901-.384-.901-.855V2.393H4.054V3.42c0 .471-.404.855-.9.855-.498 0-.902-.384-.902-.855V2.393H.321a.358.358 0 00-.273.129.397.397 0 00-.09.3l.648 5.963C.618 9.457 1.142 10 1.784 10h6.342c.642 0 1.166-.543 1.178-1.215l.649-5.964a.398.398 0 00-.09-.3z" fill="#231F20"/><path d="M3.153 3.76c.2 0 .36-.153.36-.341v-1.88c0-.528.562-.855 1.082-.855h.9c.548 0 .902.335.902.854v1.88c0 .19.161.343.36.343.199 0 .36-.154.36-.342v-1.88C7.117.646 6.435 0 5.496 0h-.901C3.6 0 2.793.69 2.793 1.538v1.88c0 .19.162.343.36.343z" fill="#231F20"/></svg>
+            </a>
 
           </li>
 
@@ -183,87 +195,91 @@
 
       <div class="main-content_wrap">
 
-        <div class="filters-title">
+        <section class="filters">
 
-          <div class="filters-title_inner">
+          <div class="filters-title">
 
-            <h3>фильтр:</h3>
+            <div class="filters-title_inner">
 
-          </div>
-
-        </div>
-
-        <form class="filters" action="https://echo.htmlacademy.ru/" method="get">
-
-          <div class="filters_inner">
-
-            <div class="cost filter">
-
-              <span class="cost-title">Стоимость</span>
-
-              <div class="scale">
-
-                <div class="bar"></div>
-
-                <div class="toggle toggle-min" tabindex="0"></div>
-
-                <div class="toggle toggle-max" tabindex="0"></div>
-
-              </div>
-
-              <span class="cost-min">от 0</span>
-
-              <span>до 5000</span>
+              <h3>фильтр:</h3>
 
             </div>
 
-            <fieldset class="filter-color filter">
-
-              <legend>Цвет</legend>
-
-              <input class="visually-hidden" id="checkbox-color-black" type="checkbox" name="color-black" checked>
-
-              <label class="" for="checkbox-color-black">Чёрный</label>
-
-              <input class="visually-hidden" id="checkbox-color-white" type="checkbox" name="color-white">
-
-              <label class="form-value" for="checkbox-color-white">Белый</label>
-
-              <input class="visually-hidden" id="checkbox-color-blue" type="checkbox" name="color-blue" checked>
-
-              <label class="form-value" for="checkbox-color-blue">Синий</label>
-
-              <input class="visually-hidden" id="checkbox-color-red" type="checkbox" name="color-red" checked>
-
-              <label class="form-value" for="checkbox-color-red">Красный</label>
-
-              <input class="visually-hidden" id="checkbox-color-pink" type="checkbox" name="color-pink">
-
-              <label class="form-value" for="checkbox-color-pink">Розовый</label>
-
-            </fieldset>
-
-            <fieldset class="filter-bluetooth filter">
-
-              <legend class="">Bluetooth</legend>
-
-              <input class="visually-hidden" id="bluetooth-true" type="radio" name="bluetooth" value="Есть" checked>
-
-              <label class="" for="bluetooth-true">Есть</label>
-
-              <input class="visually-hidden" id="bluetooth-false" type="radio" name="bluetooth" value="Нет">
-
-              <label class="" for="bluetooth-false">Нет</label>
-
-            </fieldset>
-
-            <button class="filters-button button" type="submit">показать</button>
-
           </div>
 
-        </form>
+          <form class="filters-form" action="https://echo.htmlacademy.ru/" method="get">
 
-        <div class="sorting">
+            <div class="filters_inner">
+
+              <fieldset class="filter-cost filter">
+
+                <legend>Стоимость</legend>
+
+                <div class="scale">
+
+                  <div class="bar"></div>
+
+                  <div class="toggle toggle-min" tabindex="0"></div>
+
+                  <div class="toggle toggle-max" tabindex="0"></div>
+
+                </div>
+
+                <span class="cost-min">от 0</span>
+
+                <span>до 5000</span>
+
+              </fieldset>
+
+              <fieldset class="filter-color filter">
+
+                <legend>Цвет</legend>
+
+                <input class="visually-hidden" id="checkbox-color-black" type="checkbox" name="color-black" checked>
+
+                <label class="" for="checkbox-color-black">Чёрный</label>
+
+                <input class="visually-hidden" id="checkbox-color-white" type="checkbox" name="color-white">
+
+                <label class="form-value" for="checkbox-color-white">Белый</label>
+
+                <input class="visually-hidden" id="checkbox-color-blue" type="checkbox" name="color-blue" checked>
+
+                <label class="form-value" for="checkbox-color-blue">Синий</label>
+
+                <input class="visually-hidden" id="checkbox-color-red" type="checkbox" name="color-red" checked>
+
+                <label class="form-value" for="checkbox-color-red">Красный</label>
+
+                <input class="visually-hidden" id="checkbox-color-pink" type="checkbox" name="color-pink">
+
+                <label class="form-value" for="checkbox-color-pink">Розовый</label>
+
+              </fieldset>
+
+              <fieldset class="filter-bluetooth filter">
+
+                <legend class="">Bluetooth</legend>
+
+                <input class="visually-hidden" id="bluetooth-true" type="radio" name="bluetooth" value="Есть" checked>
+
+                <label class="" for="bluetooth-true">Есть</label>
+
+                <input class="visually-hidden" id="bluetooth-false" type="radio" name="bluetooth" value="Нет">
+
+                <label class="" for="bluetooth-false">Нет</label>
+
+              </fieldset>
+
+              <button class="filters-button button" type="submit">показать</button>
+
+            </div>
+
+          </form>
+
+        </section>
+
+        <section class="sorting">
 
           <div class="sorting_inner">
 
@@ -273,19 +289,19 @@
 
               <li class="sorting__item sorting__item_current">
 
-                <button type="button">По цене</button>
+                <a href="">По цене</a>
 
               </li>
 
               <li class="sorting__item">
 
-                <button type="button">По типу</button>
+                <a href="">По типу</a>
 
               </li>
 
               <li class="sorting__item">
 
-                <button type="button">По популярности</button>
+                <a href="">По популярности</a>
 
               </li>
 
@@ -297,9 +313,9 @@
 
           </div>
 
-        </div>
+        </section>
 
-        <div class="products">
+        <section class="products">
 
           <div class="products_inner">
 
@@ -339,7 +355,7 @@
 
                   <a href="">
 
-                    <h2>Профессиональная селфи-палка </h2>
+                    <h2>Профессиональная<br>селфи-палка </h2>
 
                   </a>
 
@@ -365,7 +381,7 @@
 
                   <a href="">
 
-                    <h2>Непотопляемая селфи-палка</h2>
+                    <h2>Непотопляемая<br>селфи-палка</h2>
 
                   </a>
 
@@ -413,7 +429,7 @@
 
             <div class="pagination">
 
-              <button type="button">назад</button>
+              <a class="pagination_btn" href="">назад</a>
 
               <ul class="pagination__list">
 
@@ -437,13 +453,13 @@
 
               </ul>
 
-              <button type="button">вперед</button>
+              <a class="pagination_btn" href="">вперед</a>
 
             </div>
 
           </div>
 
-        </div>
+        </section>
 
       </div>
 
@@ -463,27 +479,39 @@
 
           <li class="footer-user-nav__item">
 
-            <a href="">Валентин Петухов</a>
+            <a href="">
+
+              <svg width="9" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M4.5.33c1.2 0 2.17 1.05 2.17 2.34C6.67 3.96 5.7 5 4.5 5S2.33 3.96 2.33 2.67c0-1.3.97-2.34 2.17-2.34zm0 9.34s4.33 0 4.33-1.17c0-1.4-2.1-2.92-4.33-2.92C2.28 5.58.17 7.1.17 8.5c0 1.17 4.33 1.17 4.33 1.17z" fill="#000"/></svg>
+
+              Валентин Петухов
+
+            </a>
 
             <a class="footer-user-nav__item-login-out" href="">Выйти</a>
 
-            <svg width="9" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M4.5.33c1.2 0 2.17 1.05 2.17 2.34C6.67 3.96 5.7 5 4.5 5S2.33 3.96 2.33 2.67c0-1.3.97-2.34 2.17-2.34zm0 9.34s4.33 0 4.33-1.17c0-1.4-2.1-2.92-4.33-2.92C2.28 5.58.17 7.1.17 8.5c0 1.17 4.33 1.17 4.33 1.17z" fill="#000"/></svg>
+          </li>
+
+          <li class="footer-user-nav__item">
+
+            <a href="">
+
+              <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M.92 3.37h1.75v5.71H.92V3.37zM4.18.92h1.64v8.16H4.18V.92zm3.27 4.66h1.63v3.5H7.45v-3.5z" fill="#000"/></svg>
+
+              Сравнить
+
+            </a>
 
           </li>
 
           <li class="footer-user-nav__item">
 
-            <a href="">Сравнить</a>
+            <a href="">
 
-            <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M.92 3.37h1.75v5.71H.92V3.37zM4.18.92h1.64v8.16H4.18V.92zm3.27 4.66h1.63v3.5H7.45v-3.5z" fill="#000"/></svg>
+              <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M9.862 2.522a.358.358 0 00-.273-.129H7.658V3.42c0 .471-.404.855-.901.855s-.901-.384-.901-.855V2.393H4.054V3.42c0 .471-.404.855-.9.855-.498 0-.902-.384-.902-.855V2.393H.321a.358.358 0 00-.273.129.397.397 0 00-.09.3l.648 5.963C.618 9.457 1.142 10 1.784 10h6.342c.642 0 1.166-.543 1.178-1.215l.649-5.964a.398.398 0 00-.09-.3z" fill="#231F20"/><path d="M3.153 3.76c.2 0 .36-.153.36-.341v-1.88c0-.528.562-.855 1.082-.855h.9c.548 0 .902.335.902.854v1.88c0 .19.161.343.36.343.199 0 .36-.154.36-.342v-1.88C7.117.646 6.435 0 5.496 0h-.901C3.6 0 2.793.69 2.793 1.538v1.88c0 .19.162.343.36.343z" fill="#231F20"/></svg>
 
-          </li>
+              Корзина
 
-          <li class="footer-user-nav__item">
-
-            <a href="">Корзина</a>
-
-            <svg width="10" height="10" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M9.862 2.522a.358.358 0 00-.273-.129H7.658V3.42c0 .471-.404.855-.901.855s-.901-.384-.901-.855V2.393H4.054V3.42c0 .471-.404.855-.9.855-.498 0-.902-.384-.902-.855V2.393H.321a.358.358 0 00-.273.129.397.397 0 00-.09.3l.648 5.963C.618 9.457 1.142 10 1.784 10h6.342c.642 0 1.166-.543 1.178-1.215l.649-5.964a.398.398 0 00-.09-.3z" fill="#231F20"/><path d="M3.153 3.76c.2 0 .36-.153.36-.341v-1.88c0-.528.562-.855 1.082-.855h.9c.548 0 .902.335.902.854v1.88c0 .19.161.343.36.343.199 0 .36-.154.36-.342v-1.88C7.117.646 6.435 0 5.496 0h-.901C3.6 0 2.793.69 2.793 1.538v1.88c0 .19.162.343.36.343z" fill="#231F20"/></svg>
+            </a>
 
           </li>
 
