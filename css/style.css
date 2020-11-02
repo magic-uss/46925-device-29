@@ -200,6 +200,11 @@ img {
   left: 60px;
   width: 163px;
   height: 35px;
+  display: block;
+}
+
+.header-logo svg {
+  display: block;
 }
 
 .header-nav__list {
@@ -779,7 +784,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 560px;
-  min-height: 580px;
+  min-height: 589px;
   padding-top: 57px;
   box-sizing: border-box;
 }
@@ -813,7 +818,6 @@ img {
 }
 
 .about-us__list {
-  flex-grow: 2;
   margin: 0;
   margin-top: 19px;
   padding: 0;
@@ -844,7 +848,6 @@ img {
 
 .contacts__link-map {
   display: block;
-  flex-grow: 2;
 }
 
 .contacts__link-map img {
@@ -854,7 +857,7 @@ img {
 .about-us .button,
 .contacts .button {
   align-self: flex-start;
-  margin-top: 54px;
+  margin-top: auto;
 }
 
 /* footer */
@@ -869,7 +872,7 @@ img {
   flex-direction: column;
   justify-content: space-between;
   min-height: 324px;
-  padding: 42px 0 58px;
+  padding: 42px 0 65px;
   box-sizing: border-box;
 }
 
@@ -891,6 +894,11 @@ img {
   position: absolute;
   top: 64px;
   left: 0;
+  display: block;
+}
+
+.footer-logo svg {
+  display: block;
 }
 
 .footer-logo path {
@@ -986,6 +994,11 @@ img {
 
 .socials__item:not(:last-child) {
   margin-right: 20px;
+}
+
+.socials__item a,
+.socials__item svg {
+  display: block;
 }
 
 .footer-logo-html-academy {
