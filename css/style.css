@@ -1169,6 +1169,7 @@ img {
 
 .breadcrumbs__item a,
 .breadcrumbs__item span {
+  color: inherit;
   opacity: 0.3;
 }
 
@@ -1737,12 +1738,12 @@ fieldset.filter legend {
   color: var(--white-3);
 }
 
-.footer-user-nav__item a:hover + svg {
+.footer-user-nav__item a:hover svg {
   opacity: 0.6;
 }
 
-.footer-user-nav__item a:active + svg,
-.footer-user-nav__item a:focus + svg {
+.footer-user-nav__item a:active svg,
+.footer-user-nav__item a:focus svg {
   opacity: 0.3;
 }
 
@@ -1802,6 +1803,14 @@ fieldset.filter legend {
 .modal-feedback__form input:invalid,
 .modal-feedback__form textarea:invalid {
   background-color: var(--pink);
+  box-shadow: none;
+}
+
+.modal-feedback__form input:invalid:active,
+.modal-feedback__form textarea:invalid:active,
+.modal-feedback__form input:invalid:focus,
+.modal-feedback__form textarea:invalid:focus {
+  border-color: transparent;
 }
 
 .products__item:hover .products__item_hover,
